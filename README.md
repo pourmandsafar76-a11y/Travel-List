@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# Travel List ✈️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React application for creating and managing a travel packing list. Users can add items, mark them as packed, sort the list, and track their packing progress through a clean and responsive interface.
 
-## Available Scripts
+## 🔗 Live Demo
 
-In the project directory, you can run:
+https://travel-list-lemon-omega.vercel.app/
 
-### `npm start`
+## 📸 Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> Add a screenshot or GIF of the application here.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Add new packing items
+- Select item quantity
+- Mark items as packed/unpacked
+- Delete individual items
+- Clear the entire packing list
+- Sort items by:
+  - Input order
+  - Description
+  - Packed status
+- Packing progress summary
+- Responsive UI
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React
+- JavaScript (ES6+)
+- CSS3
+- Create React App
+- Vercel
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone the repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/YOUR_USERNAME/final.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+Run the development server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Build for production
 
-### Code Splitting
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+src/
+ ├── components/
+ ├── App.js
+ ├── index.js
+ └── index.css
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🎯 What I Practiced
 
-### Advanced Configuration
+This project helped me practice:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- React Components
+- Props
+- State Management with useState
+- Conditional Rendering
+- Rendering Lists
+- Controlled Components
+- Event Handling
+- Array Methods
+- Component Composition
+- Clean Folder Structure
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🌐 Deployment
 
-### `npm run build` fails to minify
+The application is deployed on **Vercel**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Live URL:
+
+https://travel-list-lemon-omega.vercel.app/
+
+---
+
+## 📄 License
+
+This project is created for learning and portfolio purposes.
