@@ -1,9 +1,9 @@
 export default function Stats({ items }) {
   if (!items.length)
     return (
-      <p className="stats">
+      <footer className="stats">
         <em>Start adding some items to your packing list 🚀</em>
-      </p>
+      </footer>
     );
 
   const numItems = items.length;
@@ -14,9 +14,15 @@ export default function Stats({ items }) {
     <footer className="stats">
       <em>
         {percentage === 100
-          ? "You got everything! Ready to go ✈️"
-          : ` 💼 You have ${numItems} items on your list, and you already packed ${numPacked} (${percentage}%)`}
+          ? "🎉 You got everything! Ready to go ✈️"
+          : `💼 You have ${numItems} items on your list, and you already packed ${numPacked} (${percentage}%)`}
       </em>
+      <div className="progress-bar-container">
+        <div
+          className="progress-bar-fill"
+          style={{ width: `${percentage}%` }}
+        ></div>
+      </div>
     </footer>
   );
 }
